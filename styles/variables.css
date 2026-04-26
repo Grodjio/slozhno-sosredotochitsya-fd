@@ -1,3 +1,19 @@
+:root {
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --header-color: #ff0070;
+  --accent-color: #000028;
+  --title-content-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --bg-color: #000028;
+  --title-text-color: #ff0070;
+  --focus-color: #db00ff;
+  --bg-image: url(../images/cover-image-dark.png);
+  --shadow-color: #ff0070;
+  --display-rec: flex;
+  --mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --desc: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --line-h: 23.4px;
+}
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
