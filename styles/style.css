@@ -208,8 +208,15 @@
 }
 
 .section__images {
+  display: grid;
+  gap: 10px;
   padding: 0 10px;
   margin: 40px 0;
+}
+
+.content__images {
+  display: grid;
+  gap: 10px;
 }
 
 .images {
