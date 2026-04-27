@@ -288,10 +288,22 @@
     margin-top: 0;
     padding-left: 5px;
   }
+  .section__center {
+    display: block;
+    margin: 60px 20px 0;
+  }
+  .content__title-changing {
+    margin: 0 0 20px;
+    width: 236px;
+  }
+  .cards__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .content__card-changing {
-    grid-column: 1 / -1;
-    margin-left: 10px;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
   }
   .section__images {
     gap: 20px;
@@ -351,18 +363,18 @@
     padding-left: 0;
     margin-left: -3px;
   }
+   /* Секция — двухколоночный грид */
   .section__center {
     display: block;
-    margin: 0 20px;
   }
   .content__title-changing {
+    width: 315px;
     margin-bottom: 20px;
   }
   .cards__wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    grid-auto-rows: auto;
   }
   .content__card-changing {
     grid-column: auto;
