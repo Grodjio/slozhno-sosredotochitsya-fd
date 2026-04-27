@@ -352,20 +352,20 @@
     margin-left: -3px;
   }
   .section__center {
+    display: block;
+    margin: 0 20px;
+  }
+  .content__title-changing {
+    margin-bottom: 20px;
+  }
+  .cards__wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     grid-auto-rows: auto;
-    margin: 0 20px;
-  }
-  .content__title-changing {
-    margin: 0;
-    grid-column: 1;
-    grid-row: 1;
   }
   .content__card-changing {
     grid-column: auto;
-    grid-row: 2;
     margin: 0;
     padding: 0;
     align-content: start;
