@@ -8,6 +8,7 @@
   font-family: "IBM Plex mono", monospace, Monako;
   font-weight: normal;
   font-size: 18px;
+  background-color: var(--bg-color);
 }
 
 /* Header */
@@ -141,7 +142,6 @@
 .main {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--bg-color);
 }
 
 .title-decor {
