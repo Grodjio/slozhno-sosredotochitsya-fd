@@ -188,8 +188,8 @@
   line-height: var(--line-h);
 }
 
-.content__text__accent-bold {
-  margin: 0 10px 20px -3px;
+.content__text__accent.content__text__accent-bold {
+  margin: 20px 10px 10px;
 }
 
 .content__text__accent-normal {
@@ -295,6 +295,9 @@
     display: block;
     margin: 60px 20px 0;
   }
+  .content__text__accent.content__text__accent-bold {
+    margin: 0 10px 20px 5px;
+  }
   .content__title-changing {
     margin: 0 0 20px;
     width: 236px;
@@ -364,6 +367,9 @@
   }
   .content__card {
     padding-left: 0;
+    margin-left: -3px;
+  }
+  .content__text__accent.content__text__accent-bold {
     margin-left: -3px;
   }
   .section__center {
